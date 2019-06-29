@@ -10,12 +10,12 @@
     },
       {
         "title": "Step 2 - Install Redissearch from Docker",
-        "text": "step2.md"
+        "text": "step2.md",
+        "code": "introLoad.sh"
       }],
     "intro": {
       "text": "intro.md",
-      "credits": "",
-      "courseData": "introLoad.sh"
+      "credits": ""
     },
     "finish": {
       "text": "finish.md"
