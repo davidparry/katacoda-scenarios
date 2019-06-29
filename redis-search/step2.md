@@ -1,11 +1,7 @@
-Now we are going to do first step get redissearch.
+To speed things up we are going to pull from GitHub and Template project.
 
 ## Task
-`docker run -d  -p 6379:6379 --name redisearch redislabs/redisearch:1.4.0`{{execute}}
+`git clone --branch v1.1 git@github.com:davidparry/JRediSearchWorkshop.git`{{execute}}
 
-This will install redissearch on the already running docker **command**
+This **command** will pull a SpringBoot Skeleton project ready to start the instructions
 
-You should see output of a hash after completion.
-
-Run this docker command to view the new container running
-`docker logs redisearch`{{execute}}
