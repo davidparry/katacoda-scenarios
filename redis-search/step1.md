@@ -6,3 +6,6 @@ Now we are going to do first step get redissearch.
 This will install redissearch on the already running docker **command**
 
 You should see output of a hash after completion.
+
+Run this docker command to view the new container running
+`docker logs redisearch`{{execute}}

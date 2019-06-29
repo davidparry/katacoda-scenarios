@@ -2,12 +2,16 @@
   "title": "Redis Search Scenario SpringBoot",
   "description": "Will install redissearch and call search using redis api in springboot",
   "difficulty": "intermediate",
-  "time": "2 minutes",
+  "time": "60 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Install Redissearch from Docker",
       "text": "step1.md"
-    }],
+    },
+      {
+        "title": "Step 2 - Install Redissearch from Docker",
+        "text": "step2.md"
+      }],
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -18,7 +22,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nFollow the steps on the left :-)`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
