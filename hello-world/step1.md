@@ -1,7 +1,8 @@
-This is your first step.
+Now we are going to do first step get redissearch.
 
 ## Task
+`docker run -d  -p 6379:6379 --name redisearch redislabs/redisearch:1.4.0` {{execute}}
 
-This is an _example_ of creating a scenario and running a **command**
+This will install redissearch on the already running docker **command**
 
-`echo 'Hello World'`{{execute}}
+You should see output of a hash after completion.
